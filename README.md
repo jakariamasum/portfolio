@@ -92,15 +92,15 @@ npm run dev
 View the Project 🌐
 Open your browser and visit http://localhost:3000 to see the result! 🎉
 
-
+---
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+---
 🤝 Contributing
 Fork the Project
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
 Commit your Changes (git commit -m 'Add some AmazingFeature')
 Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
-📧 Contact
-Your Name - @yourtwitter - email@example.com
+---
 Project Link: https://github.com/yourusername/portfolio <div align="center"> Made with ❤️ by Nazmul Hossain </div>
