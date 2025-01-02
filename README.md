@@ -29,10 +29,14 @@ The portfolio website consists of the following sections:
 
 ---
 
-## Installation
+## Installation ⬇️
 
-To get started with the project locally, follow the steps below:
+You will need to download **Git** and **Node** to run this project.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+### Git
+
+- Download and install Git from the official website: [Git Downloads](https://git-scm.com/)
+- Verify the installation:
+  ```bash
+  git --version
+```
