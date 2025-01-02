@@ -28,7 +28,7 @@ Check out the live preview of the portfolio website here:
 [**Live Demo**](https://codervai.vercel.app/)
 ---
 ### 🎯 Project Structure
-
+```bash
 portfolio/
 ├── node_modules/
 ├── public/
@@ -72,6 +72,7 @@ portfolio/
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js
+```
 ---
 
 ## Sections of the Portfolio
