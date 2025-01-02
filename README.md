@@ -39,7 +39,7 @@ You will need to download **Git** and **Node** to run this project.
 - Verify the installation:
   ```bash
   git --version
-```
+  ```
 
 ### Node
 
