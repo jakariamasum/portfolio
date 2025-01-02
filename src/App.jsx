@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Hero from "./components/Hero";
 import "./assets/css/index.css";
 import Header from "./components/Header";
@@ -10,6 +10,7 @@ import Projects from "./components/Projects";
 import { Route, Routes } from "react-router-dom";
 
 export default function App() {
+  // eslint-disable-next-line no-unused-vars
   const [isOnePage, setIsOnePage] = useState(false); // Toggle state
 
   return (

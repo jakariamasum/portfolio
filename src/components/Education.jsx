@@ -1,22 +1,25 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import EducationLoader from "./ui/EducationLoader";
-import { Star, Award, Calendar } from "lucide-react";
+import { Star, Calendar } from "lucide-react";
 
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "B.Sc (Engg.) in Information and Communication Technology",
+      school: "Islamic University, Bangladesh",
       mascot: "📘",
-      achievements: ["GPA: 4.89", "Subject: Science"],
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      school: "Naogaon Govt College, Naogaon",
       mascot: "📗",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
+    },
+    {
+      degree: "Secondary School Certificate (SSC)",
+      school: "Nasaratpur High School",
+      mascot: "📗",
     },
   ];
 
@@ -65,21 +68,6 @@ const EducationSection = () => {
                       <Calendar className="w-4 h-4" />
                       {edu.year}
                     </p>
-                  </div>
-                </div>
-
-                {/* Achievements */}
-                <div className="mt-6">
-                  <div className="flex flex-wrap gap-2">
-                    {edu.achievements.map((achievement, i) => (
-                      <div
-                        key={i}
-                        className="px-3 py-1 rounded-full bg-teal-500/10 text-teal-500 hover:bg-teal-500/20 transition-colors duration-300 flex items-center gap-2 text-sm"
-                      >
-                        <Award className="w-4 h-4" />
-                        <span>{achievement}</span>
-                      </div>
-                    ))}
                   </div>
                 </div>
               </div>

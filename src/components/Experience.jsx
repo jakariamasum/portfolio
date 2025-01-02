@@ -1,5 +1,4 @@
-import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
+import { Layers, Network } from "lucide-react";
 
 const ExperienceCard = ({
   title,
@@ -89,7 +88,7 @@ const ExperienceSection = () => {
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-purple-400/30 to-indigo-400/30 blur-xl rounded-xl" />
             </div>
             <p className="text-sm md:text-lg text-gray-400 font-medium italic tracking-wide">
-              "Crafting stories, one milestone at a time..."
+              &quot;Crafting stories, one milestone at a time...&quot;
             </p>
             <div className="animate-pulse mt-4 w-6 h-6 border-4 border-dashed border-cyan-400 rounded-full" />
           </div>
