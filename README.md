@@ -13,8 +13,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](your-live-preview-url)
-
+[**Live Demo**](https://codervai.vercel.app/)
 ---
 
 ## Sections of the Portfolio
