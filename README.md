@@ -36,42 +36,48 @@ portfolio/
 │   ├── assets/
 │   ├── components/
 │   │   ├── ui/
-│   │   │   ├── badge.jsx
-│   │   │   ├── button.jsx
-│   │   │   ├── card.jsx
-│   │   │   ├── EducationLoader.jsx
-│   │   │   ├── evervault-card.jsx
-│   │   │   ├── flip-words.jsx
-│   │   │   ├── icon-cloud.jsx
-│   │   │   ├── meteors.jsx
-│   │   │   ├── sparkles-text.jsx
-│   │   │   ├── tooltip.jsx
-│   │   │   ├── AnimatedGrid.jsx
-│   │   │   ├── Contact.jsx
-│   │   │   ├── Education.jsx
-│   │   │   ├── enhanced-portfolio-card.jsx
-│   │   │   ├── Experience.jsx
-│   │   │   ├── global.jsx
-│   │   │   ├── Header.jsx
-│   │   │   ├── Hero.jsx
-│   │   │   ├── Home.jsx
-│   │   │   ├── PortfolioPage.jsx
-│   │   │   ├── Projects.jsx
-│   │   │   └── Skills.jsx
+│   │   │   ├── Reusable Components/
+│   │   │   │   ├── badge.jsx
+│   │   │   │   ├── button.jsx
+│   │   │   │   ├── card.jsx
+│   │   │   │   ├── EducationLoader.jsx
+│   │   │   │   ├── evervault-card.jsx
+│   │   │   │   ├── flip-words.jsx
+│   │   │   │   ├── icon-cloud.jsx
+│   │   │   │   ├── meteors.jsx
+│   │   │   │   ├── sparkles-text.jsx
+│   │   │   │   └── tooltip.jsx
+│   │   │   │
+│   │   │   ├── Main Components/
+│   │   │   │   ├── AnimatedGrid.jsx
+│   │   │   │   ├── Contact.jsx
+│   │   │   │   ├── Education.jsx
+│   │   │   │   ├── enhanced-portfolio-card.jsx
+│   │   │   │   ├── Experience.jsx
+│   │   │   │   ├── global.jsx
+│   │   │   │   ├── Header.jsx
+│   │   │   │   ├── Hero.jsx
+│   │   │   │   ├── Home.jsx
+│   │   │   │   ├── PortfolioPage.jsx
+│   │   │   │   ├── Projects.jsx
+│   │   │   │   └── Skills.jsx
 │   │   └── lib/
 │   ├── App.jsx
 │   └── main.jsx
-├── .eslintrc.js
-├── .gitignore
-├── components.json
-├── index.html
-├── jsconfig.json
-├── package.json
-├── package-lock.json
-├── postcss.config.js
-├── README.md
-├── tailwind.config.js
-└── vite.config.js
+├── Configuration Files/
+│   ├── .eslintrc.js
+│   ├── .gitignore
+│   ├── components.json
+│   ├── index.html
+│   ├── jsconfig.json
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── README.md
+│   ├── tailwind.config.js
+    └── vite.config.js
+
+
 ```
 ---
 
