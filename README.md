@@ -96,7 +96,8 @@ Open your browser and visit http://localhost:3000 to see the result! 🎉
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 ---
-🤝 Contributing
+### 🤝 Contributing
+
 Fork the Project
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
 Commit your Changes (git commit -m 'Add some AmazingFeature')
