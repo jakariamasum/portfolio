@@ -41,6 +41,15 @@ The portfolio website consists of the following sections:
 
 ---
 
+## 💻 Technologies Used
+- **Frontend:** React.js with Vite
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** React Icons
+- **Deployment:** Vercel
+
+---
+
 ## Installation ⬇️
 
 You will need to download **Git** and **Node** to run this project.
