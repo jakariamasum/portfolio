@@ -1,5 +1,8 @@
 import { Github, ExternalLink } from "lucide-react";
-import olova from "../assets/images/olova.png";
+import campher from "../assets/images/camp.png";
+import compass from "../assets/images/codecompass.png";
+import carPoint from "../assets/images/car-point.png";
+import ridex from "../assets/images/ridex.png";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const MacOsButtons = () => (
@@ -13,27 +16,51 @@ const MacOsButtons = () => (
 const ProjectShowcase = () => {
   const projects = [
     {
-      title: "CodeCompass! A Lightweight JavaScript Library",
+      title: "Campher Essential! One stop solution.",
       description:
-        "Olova.js is a lightweight JavaScript library for building modern, reactive, and dynamic web applications. It features a simple, component-based architecture, enabling developers to create reusable and interactive UI elements with minimal code and overhead.",
-      tags: ["JavaScript", "Reactive", "Web Development"],
-      links: {
-        github: "https://github.com/jakariamasum/CodeCompass-Client",
-        demo: "https://code-compass-client.vercel.app/",
-      },
-      image: olova,
-      featured: true,
-    },
-    {
-      title: "Campher Essential",
-      description:
-        "Campers Shop is an e-commerce website dedicated to providing all the necessary and fun items for camping enthusiasts.",
-      tags: ["JavaScript", "Reactive", "Web Development"],
+        "Camphers Shop is an e-commerce website dedicated to providing all the necessary and fun items for camping enthusiasts.Users can explore, add to card and buy the neccessary items.",
+      tags: ["React", "Tailwind", "Stripe"],
       links: {
         github: "https://github.com/jakariamasum/Campher-Essential",
         demo: "https://camp-essential.netlify.app/",
       },
-      image: olova,
+      image: campher,
+      featured: true,
+    },
+    {
+      title: "CodeCompass! A programmatic solution",
+      description:
+        "CodeCompass is a tech solution site where users can explore their problem solutions. As well as they can post own blogs, problem solution for others. Hence tech ethucians are collaborate each other and bringing the problem easier",
+      tags: ["Nextjs", "Tailwind", "Stripe", "Web Development"],
+      links: {
+        github: "https://github.com/jakariamasum/CodeCompass-Client",
+        demo: "https://code-compass-client.vercel.app/",
+      },
+      image: compass,
+      featured: true,
+    },
+    {
+      title: "RideX",
+      description:
+        "A user-friendly and responsive car rental reservation platform for customers and administrators. This system offers a smooth experience for browsing, booking, and managing cars, while providing administrators with tools to manage inventory and reservations.",
+      tags: ["React", "Redux", "Tailwind", "Stripe", "TypeScript"],
+      links: {
+        github: "https://github.com/jakariamasum/Car-Rental_Client",
+        demo: "https://ridex-car-rental.netlify.app/",
+      },
+      image: ridex,
+      featured: true,
+    },
+    {
+      title: "Car Point",
+      description:
+        "Car Poinit is a full-stack web application designed for buying and selling cars. It allows users to list their cars for sale, place bids on listings, and facilitates secure transactions between buyers and sellers.",
+      tags: ["React", "Tailwind"],
+      links: {
+        github: "https://github.com/jakariamasum/Car-point-client",
+        demo: "https://car-point-8c5e4.web.app/",
+      },
+      image: carPoint,
       featured: true,
     },
   ];
