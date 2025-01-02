@@ -40,3 +40,12 @@ You will need to download **Git** and **Node** to run this project.
   ```bash
   git --version
 ```
+
+### Node
+
+- Download and install Node.js from the official website: [Node.js Downloads](https://nodejs.org/)
+- Make sure you have the latest version of both Git and Node on your computer.
+- Verify the installation:
+  ```bash
+  node --version
+  ```
