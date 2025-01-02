@@ -49,3 +49,39 @@ You will need to download **Git** and **Node** to run this project.
   ```bash
   node --version
   ```
+
+# Getting Started 🎯
+
+### Fork and Clone the Repository 🚀
+1. Click the **Fork** button at the top-right corner of the page to create your own copy of the repository.
+2. After forking, open your terminal and run the following commands to clone the repo:
+
+  ```bash
+  git clone https://github.com/<YOUR GITHUB USERNAME>/portfolio.git
+  ```
+Navigate to the Project Directory 📂
+Once the repository is cloned, change your directory to the project folder:
+```bash
+cd portfolio
+```
+
+Install Dependencies ⚙️
+From the root directory of your project, install the necessary packages:
+```bash
+npm install
+```
+
+Run the Development Server 🚀
+Start the development server to see your project live:
+```bash
+npm run dev
+```
+
+View the Project 🌐
+Open your browser and visit http://localhost:3000 to see the result! 🎉
+
+Happy Coding! 💻✨
+```bash
+
+Let me know if you'd like more improvements!
+```
