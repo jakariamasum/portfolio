@@ -27,7 +27,6 @@ const ProjectShowcase = () => {
       image: campher,
       featured: true,
     },
-    //d
     {
       title: "CodeCompass! A programmatic solution",
       description:
