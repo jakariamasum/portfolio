@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 
 export default function App() {
   // eslint-disable-next-line no-unused-vars
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       )}
     </>
