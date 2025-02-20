@@ -10,6 +10,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { resumeDownload } from "@/services/resume.service";
 
 const Particles = () => {
   return (
@@ -121,7 +122,10 @@ export default function EnhancedPortfolioCard() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.5 }}
           >
-            <Button className="mt-6 bg-gradient-to-r from-[#2DD4BF] to-[#38BDF8] hover:from-[#2DD4BF]/90 hover:to-[#38BDF8]/90 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition-all duration-300 hover:scale-105">
+            <Button
+              onClick={() => resumeDownload()}
+              className="mt-6 bg-gradient-to-r from-[#2DD4BF] to-[#38BDF8] hover:from-[#2DD4BF]/90 hover:to-[#38BDF8]/90 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition-all duration-300 hover:scale-105"
+            >
               <Download className="mr-2 h-5 w-5" />
               Download CV
             </Button>
