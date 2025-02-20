@@ -1,40 +1,19 @@
 import { useState } from "react";
-import {
-  FaHome,
-  FaLaptopCode,
-  FaBriefcase,
-  FaGraduationCap,
-  FaCode,
-  FaEnvelope, // Icon for Connect
-} from "react-icons/fa";
+import { FaHome, FaLaptopCode, FaEnvelope, FaBlog } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState(() => {
-    // Initialize active link based on current path
     const path = location.pathname.substring(1) || "home";
     return path;
   });
 
   const navLinks = [
     { id: "home", icon: FaHome, text: "Home", path: "/" },
-    { id: "skills", icon: FaCode, text: "Skills", path: "/skills" },
-    {
-      id: "experience",
-      icon: FaBriefcase,
-      text: "Experience",
-      path: "/experience",
-    },
-
-    {
-      id: "education",
-      icon: FaGraduationCap,
-      text: "Education",
-      path: "/education",
-    },
     { id: "projects", icon: FaLaptopCode, text: "Projects", path: "/projects" },
-    { id: "contact", icon: FaEnvelope, text: "Contact", path: "/contact" }, // Added Connect
+    { id: "contact", icon: FaEnvelope, text: "Contact", path: "/contact" },
+    { id: "blog", icon: FaBlog, text: "Blog", path: "/blog" },
   ];
 
   return (

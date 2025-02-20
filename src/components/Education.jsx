@@ -1,6 +1,6 @@
 import { useState } from "react";
-import EducationLoader from "./ui/EducationLoader";
 import { Star, Calendar } from "lucide-react";
+import Title from "./Title";
 
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -24,7 +24,11 @@ const EducationSection = () => {
   ];
 
   return (
-    <section className="min-h-screen bg-[#0f1629] py-40">
+    <section className="min-h-screen bg-[#0f1629] py-16">
+      <Title
+        title="Educational Journey"
+        subtitle="Crafting stories, one milestone at a time..."
+      />
       <div className="max-w-5xl mx-auto px-4">
         <div className="space-y-8">
           {educationData.map((edu, index) => (
@@ -75,7 +79,6 @@ const EducationSection = () => {
           ))}
         </div>
       </div>
-      <EducationLoader />
     </section>
   );
 };

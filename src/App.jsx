@@ -5,9 +5,10 @@ import Header from "./components/Header";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
 import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 
 export default function App() {
   // eslint-disable-next-line no-unused-vars
@@ -29,7 +30,7 @@ export default function App() {
       ) : (
         // Router Mode: Use routes for navigation
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />

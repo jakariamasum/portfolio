@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "./globe";
 import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import Title from "./Title";
 
 const SkillCard = ({ icon: Icon, title, skills, color }) => (
   <Card className="bg-gray-800/50 border-gray-700 hover:bg-gray-800/80 transition-all duration-300">
@@ -95,7 +96,11 @@ const SkillsSection = () => {
 
   return (
     <main className="pt-20 lg:pt-0 bg-[#0f1629] text-white min-h-screen">
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 pt-16">
+        <Title
+          title="Turning Ideas into Scalable Solutions"
+          subtitle="Every great project starts with the right tools"
+        />
         <div className="flex justify-center items-center">
           <IconCloudDemo />
         </div>
