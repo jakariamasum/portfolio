@@ -1,4 +1,4 @@
-import { Layers, Network } from "lucide-react";
+import { experiencesData } from "@/lib/db";
 import Title from "./Title";
 
 const ExperienceCard = ({
@@ -53,25 +53,6 @@ const ExperienceCard = ({
 );
 
 const ExperienceSection = () => {
-  const experiences = [
-    {
-      icon: Network,
-      title: "Full Stack Developer",
-      company: "ZiniPay",
-      period: "2024 - present",
-      description:
-        "Worked on developing and customizing Full Stack websites for clients globally.",
-    },
-    {
-      icon: Layers,
-      title: "Full Stack Developer Intern",
-      company: "ZiniPay",
-      period: "2024 - 2024",
-      description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
-    },
-  ];
-
   return (
     <>
       <div className="min-h-screen bg-gray-900 relative overflow-hidden">
@@ -88,7 +69,7 @@ const ExperienceSection = () => {
 
           {/* Experience grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto relative">
-            {experiences.map((exp, index) => (
+            {experiencesData?.map((exp, index) => (
               <ExperienceCard key={index} {...exp} />
             ))}
           </div>

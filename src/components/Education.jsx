@@ -1,27 +1,10 @@
 import { useState } from "react";
 import { Star, Calendar } from "lucide-react";
 import Title from "./Title";
+import { educationData } from "@/lib/db";
 
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
-
-  const educationData = [
-    {
-      degree: "B.Sc (Engg.) in Information and Communication Technology",
-      school: "Islamic University, Bangladesh",
-      mascot: "📘",
-    },
-    {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Naogaon Govt College, Naogaon",
-      mascot: "📗",
-    },
-    {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Nasaratpur High School",
-      mascot: "📗",
-    },
-  ];
 
   return (
     <section className="min-h-screen bg-[#0f1629] py-16">
@@ -31,7 +14,7 @@ const EducationSection = () => {
       />
       <div className="max-w-5xl mx-auto px-4">
         <div className="space-y-8">
-          {educationData.map((edu, index) => (
+          {educationData?.map((edu, index) => (
             <div
               key={index}
               className={`relative group border-2 rounded-xl transition-all duration-500 ${
