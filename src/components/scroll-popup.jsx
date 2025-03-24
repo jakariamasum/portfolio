@@ -44,13 +44,13 @@ export default function ScrollPopup({
     <div className="fixed bottom-6 left-6 z-50 max-w-xs animate-popup">
       <div className="flex rounded-xl border-l-4 border-r-4 border-l-blue-500 border-r-[#3BCBA9] bg-black/95 p-4 shadow-lg backdrop-blur-sm">
         <div className="relative mr-4">
-          <div className="h-14 w-14 overflow-hidden rounded-full border-2 border-gray-700 shadow-inner">
+          <div className="h-14 w-14 overflow-hidden rounded-full border-2 border-[#3EC7B0] shadow-inner ">
             <img
               src={profileImage || "/placeholder.svg?height=56&width=56"}
               alt="Profile"
               width={56}
               height={56}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-top"
             />
           </div>
         </div>
