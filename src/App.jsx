@@ -11,6 +11,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Footer from "./components/Footer";
+import ScrollPopup from "./components/scroll-popup";
 
 export default function App() {
   // eslint-disable-next-line no-unused-vars
@@ -41,6 +42,7 @@ export default function App() {
           <Route path="/blog" element={<Blog />} />
         </Routes>
       )}
+      <ScrollPopup />
       <Footer />
     </>
   );
